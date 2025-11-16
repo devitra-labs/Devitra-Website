@@ -9,11 +9,11 @@ const Footer = () => {
       <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center space-x-2 mb-4">
+            <a href='#home' className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center neon-glow">
                 <img className="border-1 shadow" src="/devitra_icon.png" alt="devitra-logo" />
               </div>
-            </div>
+            </a>
             <p className="text-primary mb-4">
               Developer & Kolaborasi - Tim yang berdedikasi untuk menciptakan solusi teknologi inovatif.
             </p>

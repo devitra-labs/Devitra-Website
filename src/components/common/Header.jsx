@@ -17,11 +17,11 @@ const Header = () => {
     <header className="fixed top-0 w-full bg-white/95 backdrop-blur-md border-b border-primary-200 z-50">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
+          <a href='#home' className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center neon-glow">
               <img className="border-1 shadow" src="/devitra_icon.png" alt="devitra-logo" />
             </div>
-          </div>
+          </a>
 
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
