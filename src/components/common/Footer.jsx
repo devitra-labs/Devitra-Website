@@ -11,9 +11,8 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center neon-glow">
-                <span className="text-white font-bold text-xl">D</span>
+                <img className="border-1 shadow" src="/devitra_icon.png" alt="devitra-logo" />
               </div>
-              <span className="text-xl font-bold text-primary">Devitra</span>
             </div>
             <p className="text-primary mb-4">
               Developer & Kolaborasi - Tim yang berdedikasi untuk menciptakan solusi teknologi inovatif.

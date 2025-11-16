@@ -14,14 +14,13 @@ const Header = () => {
   ];
 
   return (
-    <header       className="fixed top-0 w-full bg-white/95 backdrop-blur-md border-b border-primary-200 z-50">
+    <header className="fixed top-0 w-full bg-white/95 backdrop-blur-md border-b border-primary-200 z-50">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center neon-glow">
-              <span className="text-secondary font-bold text-xl">D</span>
+              <img className="border-1 shadow" src="/devitra_icon.png" alt="devitra-logo" />
             </div>
-            <span className="text-xl font-bold gradient-text">Devitra</span>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">

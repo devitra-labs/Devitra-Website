@@ -56,7 +56,7 @@ export const teamData = [
    {
      id: 5,
      name: "Ardiyanti",
-     role: "UI/UX Designer",
+     role: "UI/UX Designer - Member",
      image: "/api/placeholder/300/300",
      skills: ["Figma"],
      bio: "Responsible for design consistency, ensuring seamless deployment, and infrastructure management for projects.",
