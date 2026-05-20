@@ -1,81 +1,119 @@
-
-
 export const teamData = [
-  {
-    id: 1,
-    name: "Kefiar Sakki Widyarinakit",
-    role: "Backend Developer - Founder",
-    image: "/api/placeholder/300/300",
-    skills: ["Laravel", "PHP"],
-    bio: "Passionate about building scalable web applications and leading the development team as a Founder.",
-    social: {
-      github: "https://github.com/keffswida",
-      //linkedin: "https://linkedin.com",
-      email: "kefiarsakki762@gmail.com"
-    }
-  },
+  // === ENGINEERING DIVISION ===
   {
     id: 2,
     name: "Andicha Fariq Putra Pratama",
-    role: "Team Lead - Full Stack Developer - Founder",
-    image: "/api/placeholder/300/300",
-    skills: ["React", "Tailwind CSS", "Figma", "PHP"],
-    bio: "A Full Stack expert who ensures beautiful, intuitive UI/UX while leading the team to success.",
+    role: "CTO & Founder - Fullstack Developer  ",
+    division: "Engineering",
+    image: "https://ui-avatars.com/api/?name=Andicha+Fariq&background=random&color=fff&size=128",
+    skills: ["React.js", "Node.js", "Next.js", "React Native", "Tailwind CSS", "Express.js", "MongoDB", "Flutter", "Java", "Laravel", "PHP"],
+    bio: "Results-driven Full-Stack Developer and tech entrepreneur leading the technical vision and architecting scalable digital solutions at devitra.id.", // Berdasarkan rangkuman profesional [cite: 119, 120, 125]
     social: {
       github: "https://github.com/AnFariq",
-      //linkedin: "https://linkedin.com",
       email: "fariqputrapratamaandicha@gmail.com"
     }
   },
   {
+    id: 1,
+    name: "Kefiar Sakki Widyarinakit",
+    role: "Lead Backend Developer - Founder",
+    division: "Engineering",
+    image: "https://ui-avatars.com/api/?name=Kefiar+Sakki&background=random&color=fff&size=128",
+    skills: ["Laravel", "PHP", "MySQL", "Blade"],
+    bio: "Passionate about building scalable web applications and leading the backend architecture as a Founder.",
+    social: {
+      github: "https://github.com/keffswida",
+      email: "kefiarsakki762@gmail.com"
+    }
+  },
+  {
+    id: 7,
+    name: "Equinell Dovan Saputra",
+    role: "Web Developer",
+    division: "Engineering",
+    image: "https://ui-avatars.com/api/?name=Equinell+Dovan&background=random&color=fff&size=128",
+    skills: ["HTML", "CSS", "JavaScript"],
+    bio: "A dedicated Web Developer focused on building responsive and functional web interfaces.",
+    social: {
+      linkedin: "https://linkedin.com/in/equinell-dovan-saputra-4792292aa",
+    }
+  },
+
+  // === DESIGN & CREATIVE DIVISION ===
+  {
     id: 3,
     name: "Mochammad Hafizh Yastito",
-    role: "UI/UX Designer - Founder",
-    image: "/api/placeholder/300/300",
-    skills: ["Figma"],
-    bio: "Focused on crafting great user experiences and building robust backend systems and APIs to power their applications.",
+    role: "Head of UI/UX - Founder",
+    division: "Design",
+    image: "https://ui-avatars.com/api/?name=Mochammad+Hafizh&background=random&color=fff&size=128",
+    skills: ["Figma", "Design Systems"],
+    bio: "Focused on crafting great user experiences and building the visual foundation for robust digital products.",
     social: {
       github: "https://github.com/hafizhyastito-svg",
-      //linkedin: "https://linkedin.com",
       email: "hafizhyastito@gmail.com"
+    }
+  },
+  {
+    id: 6,
+    name: "Sultan Chiadai",
+    role: "Human Resource & Web Designer",
+    division: "Human Resource",
+    image: "https://ui-avatars.com/api/?name=Sultan+Chiadai&background=random&color=fff&size=128",
+    skills: ["HTML", "CSS", "JavaScript", "Figma"],
+    bio: "A Web Designer focused on crafting clean interfaces, elegant visual identities, and modern digital experiences.",
+    social: {
+      github: "https://github.com/sultanchiadai",
+      linkedin: "https://linkedin.com/in/sultan-chiadai/",
+      email: "sultanchiadai@gmail.com",
     }
   },
   {
     id: 4,
     name: "Yosua Farrel Ardelle Chrissalio",
-    role: "UI/UX Designer - Member",
-    image: "/api/placeholder/300/300",
-    skills: ["Figma"],
-    bio: "Designing excellent UI/UX for cross-platform mobile applications with a focus on native performance.",
+    role: "UI/UX Designer, Marketing Strategist, & Graphic Designer",
+    division: "Marketing",
+    image: "https://ui-avatars.com/api/?name=Yosua+Farrel&background=random&color=fff&size=128",
+    skills: ["Figma", "Mobile Design", "Marketing Strategy", "Adobe Photoshop"],
+    bio: "Focused on crafting great user experiences and building the visual foundation for robust digital products, while also developing and executing marketing strategies to promote our brand and products.",
     social: {
-      //github: "https://github.com",
-      //linkedin: "https://linkedin.com",
       email: "fafayosua@gmail.com"
     }
   },
-   {
-     id: 5,
-     name: "Ardiyanti",
-     role: "UI/UX Designer",
-     image: "/api/placeholder/300/300",
-     skills: ["Figma"],
-     bio: "Responsible for design consistency, ensuring seamless deployment, and infrastructure management for projects.",
-     social: {
-       //github: "https://github.com",
-       //linkedin: "https://linkedin.com",
-       email: "ardiyantiwijayanti@gmail.com"
-     }
-   }
+  {
+    id: 5,
+    name: "Raditya Yudistio R.",
+    role: "Finance & Graphic Designer",
+    division: "Finance",
+    image: "https://ui-avatars.com/api/?name=Raditya+Yudistio&background=random&color=fff&size=128",
+    skills: ["Financial Analysis", "Adobe Illustrator"],
+    bio: "Responsible for managing financial operations and creating visual content to support marketing and branding efforts.",
+    social: {
+      email: "radityaramadhni@gmail.com"
+    }
+  },
+  {
+    id: 8,
+    name: "Jhansen Marcellino",
+    role: "Figma Designer",
+    division: "Design",
+    image: "https://ui-avatars.com/api/?name=Jhansen+Marcellino&background=random&color=fff&size=128",
+    skills: ["Figma", "UI/UX Design"],
+    bio: "A passionate Figma Designer with a keen eye for detail and a love for creating beautiful, functional designs.",
+    social: {
+      email: "marcellinojhon77@gmail.com"
+    }
+
+  }
 ];
 
 export const achievementsData = [
   {
     id: 1,
-    title: "Hackathon 2023 - 1st Place",
+    title: "UI/UX Iconic IT 2025",
     description: "Won first place in the National Hackathon with our innovative fintech solution.",
-    date: "November 2023",
+    date: "Oktober 2025",
     category: "Competition",
-    image: "/api/placeholder/400/250"
+    image: "/Iconic_2025.jpg"
   },
   {
     id: 2,
@@ -100,5 +138,5 @@ export const achievementsData = [
     date: "May 2023",
     category: "Competition",
     image: "/api/placeholder/400/250"
-  }
+  },
 ];
