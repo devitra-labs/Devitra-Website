@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { achievementsData } from '../../data/teamData';
-import { Trophy, Calendar, Tag, ExternalLink } from 'lucide-react';
+import { Trophy, Calendar, Tag, ExternalLink, Fullscreen } from 'lucide-react';
 
 const Achievements = () => {
   const getCategoryColor = () => {
@@ -23,12 +23,12 @@ const Achievements = () => {
           <p className="text-xl text-primary max-w-3xl mx-auto">
             Berbagai pencapaian yang telah kami raih dalam kompetisi dan pengembangan proyek.
           </p>
-        </motion.div>
+        </motion.div>                                                                                                     
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           {achievementsData.map((achievement, index) => (
             <motion.div
-              key={achievement.id}
+              key={achievement.id}                                                  
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
@@ -36,7 +36,7 @@ const Achievements = () => {
               className="glass-card rounded-2xl overflow-hidden card-hover"
             >
               <div className="h-48 bg-primary flex items-center justify-center">
-                <Trophy size={48} className="text-white" />
+                <img className="h-48 bg-primary flex items-center justify-center" src={achievement.image} alt="" />
               </div>
               
               <div className="p-6">
